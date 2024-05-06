@@ -20,11 +20,8 @@ Set up a linear program to approximate solution.
 These are the variables we have control over:
 
 $`\text{peas}_i = \text{number of peas to plant in the beginning of month } i`$ 
-
 $`\text{potatoes}_i = \text{number of potatoes to plant in the beginning of month } i`$ 
-
 $`\text{raspberries}_i = \text{number of raspberries to plant in the beginning of month } i`$ 
-
 $`\text{saffron}_i = \text{number of saffron to plant in the beginning of month } i`$ 
 
 If we have the following variables, then the balance would be easy to calculate:
