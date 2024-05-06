@@ -5,7 +5,7 @@ modified: 2024-05-04 08:09 PM
 # Problem
 Source: from Brilliant's May rundown email.
 
-![image](Pasted image 20240504195222.png)
+![image](./crops.png)
 
 >It’s Spring—the perfect time to start a farm. You have $100 to get your operation off the ground, and can plant any of the crops below that you can afford, at any time. 
 
