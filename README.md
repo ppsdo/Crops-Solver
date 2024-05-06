@@ -11,6 +11,7 @@ It’s Spring—the perfect time to start a farm. You have $100 to get your oper
 | Potatoes    | $5   | $8            | 4 months     |
 | Raspberries | $15  | $25           | 4 months     |
 | Saffron     | $175 | $500          | 6 months     |
+
 **In 5 years, what's the most money you can make selling your crops?**
 
 # Provided Solution
