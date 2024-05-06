@@ -26,13 +26,10 @@ $`\text{saffron}_i = \text{number of saffron to plant in the beginning of month 
 
 If we have the following variables, then the balance would be easy to calculate:
 
-$\text{grown peas}_i = \text{number of peas to sell in the beginning of month } i$ 
-
-$\text{grown potatoes}_i = \text{number of potatoes to sell in the beginning of month } i$ 
-
-$\text{grown raspberries}_i = \text{number of raspberries to grow in the beginning of month } i$ 
-
-$\text{grow saffron}_i = \text{number of saffron to sell in the beginning of month } i$ 
+$`\text{grown peas}_i = \text{number of peas to sell in the beginning of month } i`$ 
+$`\text{grown potatoes}_i = \text{number of potatoes to sell in the beginning of month } i`$ 
+$`\text{grown raspberries}_i = \text{number of raspberries to grow in the beginning of month } i`$ 
+$`\text{grow saffron}_i = \text{number of saffron to sell in the beginning of month } i`$ 
 
 Because balance, if defined as follows, is as simple as:
 
