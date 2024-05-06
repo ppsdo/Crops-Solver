@@ -19,27 +19,33 @@ Set up a linear program to approximate solution.
 
 These are the variables we have control over:
 
-$\text{peas}_i = \text{number of peas to plant in the beginning of month } i$ 
+$`\text{peas}_i = \text{number of peas to plant in the beginning of month } i`$ 
 
-$\text{potatoes}_i = \text{number of potatoes to plant in the beginning of month } i$ 
+$`\text{potatoes}_i = \text{number of potatoes to plant in the beginning of month } i`$ 
 
-$\text{raspberries}_i = \text{number of raspberries to plant in the beginning of month } i$ 
+$`\text{raspberries}_i = \text{number of raspberries to plant in the beginning of month } i`$ 
 
-$\text{saffron}_i = \text{number of saffron to plant in the beginning of month } i$ 
+$`\text{saffron}_i = \text{number of saffron to plant in the beginning of month } i`$ 
 
 If we have the following variables, then the balance would be easy to calculate:
+
 $\text{grown peas}_i = \text{number of peas to sell in the beginning of month } i$ 
+
 $\text{grown potatoes}_i = \text{number of potatoes to sell in the beginning of month } i$ 
+
 $\text{grown raspberries}_i = \text{number of raspberries to grow in the beginning of month } i$ 
+
 $\text{grow saffron}_i = \text{number of saffron to sell in the beginning of month } i$ 
 
 Because balance, if defined as follows, is as simple as:
+
 $$
 \begin{align*}
 \text{balance}_i &= \text{balance at the beginning of month } i \text{ after purchasing and selling the crops} \\
 &= \text{balance}_{i-1} - \text{cost of purchasing crops this month} + \text{revenue from selling crops this month}
 \end{align*}
 $$
+
 Then we maximize for $balance_{61}$ and apply non-negativity constraints on all the variables.
 
 [CVXPY](https://www.cvxpy.org/) and [a spreadsheet solver](https://help.libreoffice.org/latest/en-US/text/scalc/01/solver.html) were used to solve this optimization problem with very similar answers.
