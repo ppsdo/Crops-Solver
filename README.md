@@ -33,12 +33,12 @@ $`\text{grow saffron}_i = \text{number of saffron to sell in the beginning of mo
 
 Because balance, if defined as follows, is as simple as:
 
-$$
-\begin{align*}
+$$ \begin{align*}
+
 \text{balance}_i &= \text{balance at the beginning of month } i \text{ after purchasing and selling the crops} \\
 &= \text{balance}_{i-1} - \text{cost of purchasing crops this month} + \text{revenue from selling crops this month}
-\end{align*}
-$$
+
+\end{align*}$$
 
 Then we maximize for $balance_{61}$ and apply non-negativity constraints on all the variables.
 
