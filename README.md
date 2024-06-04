@@ -46,7 +46,7 @@ Then we maximize for $balance_{61}$ and apply non-negativity constraints on all 
 
 [CVXPY](https://www.cvxpy.org/) and [a spreadsheet solver](https://help.libreoffice.org/latest/en-US/text/scalc/01/solver.html) were used to solve this optimization problem with very similar answers.
 
-Additionally, the provided answers from the spreadsheet solver constrained the purchases from the first month to be integers. This change the optimal value from ~$300k to $200k, suggesting that the linear program may not be a good approximation of the problem.
+Additionally, the provided answers from the spreadsheet solver constrained the purchases from the first month to be integers. This change the optimal value from ~$3 million to $2 million, suggesting that the linear program may not be a good approximation of the problem.
 
 # Next Steps
 - Constrain to integers
